@@ -1,0 +1,82 @@
+
+* {
+     align-items: middle;
+     margin: auto;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+#main {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    max-width: 800px;
+}
+
+#search {
+    background-color: #f5f2f2;
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    border: 1px solid rgb(170, 169, 169);
+    height: 15px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+#searches {
+    display: inline-block;
+    background-color: rgb(113, 228, 224);
+    width: 39.5%;
+    block-size: 80px;
+    padding: 1.5%;
+    vertical-align: top;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+#links {
+    display: inline-block;
+    background-color: rgb(100, 200, 200);
+    color: blue;
+    width: 20%;
+    block-size: 80px;
+    padding: 1%;
+    font-size: smaller;
+    vertical-align: top;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+#updates {
+    display: inline-block;
+    background-color: rgb(98, 187, 147);
+    width: 39.5%;
+    height: 80px;
+    font-size: small;
+    margin-top: 2px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+    float: bottom;
+    text-align: center;
+    margin-top: 30px;
+}
